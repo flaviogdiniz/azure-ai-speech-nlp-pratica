@@ -44,13 +44,16 @@ Utilizei o texto transcrito da Parte 1 para aplicar os modelos de Processamento 
 
 #### **Cenário 2.1: Análise de Sentimento e a Descoberta da Razão (Mineração de Opinião)**
 
-Submeti o texto do cliente ("É inaceitável essa demora...") para análise.
+Submeti o texto do cliente ("É inaceitável essa demora. Eu preciso de uma solução imediata.") para análise.
 
-* **Sentimento Geral:** **Negativo** (com alta confiança: 98%).
+* **Sentimento Geral:** **Negativo** (com alta confiança: 99%).
 * **O Destaque: Mineração de Opinião:** O serviço foi além do sentimento geral, identificando que o alvo da frustração era o **"atraso"** (ou **"demora"**).
+  
 
 
 * **Mineração de Opinião é Crucial:** Saber o *porquê* da insatisfação (o atraso) permite que a IA ou o sistema de roteamento direcione a solicitação para a solução específica (logística), tornando o atendimento muito mais eficiente.
+  <img width="1780" height="759" alt="image" src="https://github.com/user-attachments/assets/664abedb-2c30-449a-afc9-5d1609ec5971" />
+
 
 #### **Cenário 2.2: Estruturação dos Dados com NER e Frases-Chave**
 

@@ -55,17 +55,9 @@ Submeti o texto do cliente ("É inaceitável essa demora. Eu preciso de uma solu
   <img width="1780" height="759" alt="image" src="https://github.com/user-attachments/assets/664abedb-2c30-449a-afc9-5d1609ec5971" />
 
 
-#### **Cenário 2.2: Estruturação dos Dados com NER e Frases-Chave**
 
-Apliquei os modelos para transformar o texto livre em dados que podem ser processados por um sistema.
-
-| Serviço | Resultado Estruturado | Valor para o Negócio |
-| :--- | :--- | :--- |
-| **Reconhecimento de Entidades (NER)** | **Número 459** (Quantidade/Numérico), **Ontem** (Data) | Extrai identificadores vitais para a busca no sistema. |
-| **Extração de Frases-Chave** | *Pedido, número 459, solução imediata, demora* | Cria um resumo conciso e acionável da solicitação. |
-
-* A combinação desses serviços permite à IA **"entender"** a tarefa: **"Rastrear o pedido de identificador 459 com urgência, que está em atraso."**
 
  ##  Conclusão
 
-O Azure oferece ferramentas robustas e de fácil acesso via Studio, o que facilita a prototipagem de soluções como *chatbots* avançados e sistemas de análise de *call center*.
+O Azure oferece ferramentas robustas e de fácil acesso via Studio, o que facilita a prototipagem de soluções.
+O sucesso desta prática laboratorial demonstrou o poder da integração entre o Azure Speech Studio e o Azure Language Studio.
